@@ -1,0 +1,7 @@
+usuario = input('Ingrese su usuario: ')
+contraseña = input('Ingrese su contraseña: ')
+
+contraseña_largo = len(contraseña)
+contraseña_oculta = "*" * contraseña_largo
+
+print(f"{usuario}, su contraseña: {contraseña_oculta} tiene {contraseña_largo} caracteres de largo.") 
