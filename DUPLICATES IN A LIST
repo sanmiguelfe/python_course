@@ -1,0 +1,12 @@
+#Exercise: Check for duplicates in a list:
+some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
+
+unique_set = set()
+duplicates = []
+
+for item in some_list:
+    if item in unique_set:        duplicates.append(item)
+    else:
+        unique_set.add(item)
+
+print(duplicates)
